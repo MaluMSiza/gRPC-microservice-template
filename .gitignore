@@ -1,0 +1,60 @@
+# Binários e executáveis
+/bin/
+/grpc-server
+/grpc-client
+*.exe
+*.out
+
+# Dependências Go
+/vendor/
+/go.sum
+
+# Ambiente e configurações
+.env
+.env.local
+*.log
+*.tmp
+
+# Arquivos gerados
+/gen/
+*.pb.go
+*.pb.gw.go
+*.swagger.json
+
+# IDE e editor específico
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Testes e cobertura
+coverage.txt
+profile.out
+*.test
+
+# Build e distribuição
+/dist/
+/build/
+*.tar.gz
+*.zip
+
+# Logs e dados temporários
+/tmp/
+/logs/
+
+# Go workspace (se usado)
+/go.work
+/go.work.sum
+
+# MacOS específico
+.DS_Store
+
+# Linux específico
+*~
+
+# Windows específico
+Thumbs.db
